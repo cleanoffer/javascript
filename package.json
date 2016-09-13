@@ -1,0 +1,29 @@
+{
+  "name": "styleguide",
+  "version": "0.0.1",
+  "description": "TAN Javascript style guide",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleanoffer/javascript.git"
+  },
+  "author": "John Hampton <john@topagentnetwork.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleanoffer/javascript/issues"
+  },
+  "homepage": "https://github.com/cleanoffer/javascript#readme",
+  "dependencies": {
+    "@topagentnetwork/eslint-config-tan-node6": "file:linters/eslint-config-tan-node6",
+    "@topagentnetwork/eslint-config-tan-react": "file:linters/eslint-config-tan-react",
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb": "^11.1.0",
+    "eslint-plugin-import": "^1.15.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-node": "^2.0.0",
+    "eslint-plugin-react": "^6.2.1"
+  }
+}

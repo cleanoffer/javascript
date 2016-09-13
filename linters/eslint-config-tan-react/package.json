@@ -1,0 +1,29 @@
+{
+  "name": "@topagentnetwork/eslint-config-tan-react",
+  "version": "0.0.1",
+  "description": "ESLint configuration for TAN react projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:cleanoffer/javascript"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "John Hampton <john@topagentnetwork.com>",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint-config-airbnb": "^11.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-plugin-import": "^1.15.0",
+    "eslint-plugin-jsx-a11y": "^2.2.1",
+    "eslint-plugin-node": "^2.0.0",
+    "eslint-plugin-react": "^6.2.0"
+  }
+}

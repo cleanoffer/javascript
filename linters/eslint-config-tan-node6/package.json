@@ -1,0 +1,30 @@
+{
+  "name": "@topagentnetwork/eslint-config-tan-node6",
+  "version": "0.0.1",
+  "description": "eslint configuration for TAN projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleanoffer/javascript.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "John Hampton <john@topagentnetwork.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleanoffer/javascript/issues"
+  },
+  "homepage": "https://github.com/cleanoffer/javascript#readme",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^7.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-plugin-import": "^1.15.0",
+    "eslint-plugin-node": "^2.0.0"
+  }
+}
