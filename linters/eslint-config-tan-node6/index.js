@@ -17,6 +17,11 @@ module.exports = {
   rules: {
     'comma-dangle': 0,
 
+    'import/no-extraneous-dependencies': [2, {
+      devDependencies: ["**/test/*.js"],
+      optionalDependencies: false
+    }],
+
     'keyword-spacing': [2, {
       before: true,
       after: true
@@ -30,7 +35,7 @@ module.exports = {
       }
     }],
 
-    'no-param-reassign': 0
+    'no-param-reassign': 0,
 
     'node/no-unsupported-features': [2, { version: 6 }],
 
