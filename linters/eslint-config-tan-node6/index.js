@@ -18,7 +18,7 @@ module.exports = {
     'comma-dangle': 0,
 
     'import/no-extraneous-dependencies': [2, {
-      devDependencies: ["**/test/*.js"],
+      devDependencies: ["**/test/**/*.js"],
       optionalDependencies: false
     }],
 
