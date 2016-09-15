@@ -4,7 +4,8 @@
   "description": "TAN Javascript style guide",
   "private": true,
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "version": "npm test"
   },
   "repository": {
     "type": "git",
