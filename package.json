@@ -4,7 +4,7 @@
   "description": "TAN Javascript style guide",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
     "eslint-plugin-jsx-a11y": "^2.2.2",
     "eslint-plugin-node": "^2.0.0",
     "eslint-plugin-react": "^6.2.1"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0"
   }
 }
