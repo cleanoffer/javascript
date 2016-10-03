@@ -1,6 +1,6 @@
 {
   "name": "@topagentnetwork/eslint-config-tan-node6",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "eslint configuration for TAN projects",
   "main": "index.js",
   "scripts": {

@@ -1,6 +1,6 @@
 {
   "name": "@topagentnetwork/eslint-config-tan-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESLint configuration for TAN react projects",
   "main": "index.js",
   "scripts": {
