@@ -5,7 +5,10 @@ module.exports = {
 
   parser: require.resolve('babel-eslint'),
   rules: {
-    strict: [2, 'global']
+    strict: [2, 'global'],
+    'comma-dangle': 0,
+    semi: [2, 'never'],
+    "jsx-quotes": [1, "prefer-single"],
   }
 }
 
