@@ -20,11 +20,11 @@
   },
   "homepage": "https://github.com/cleanoffer/javascript#readme",
   "dependencies": {
-    "eslint-config-airbnb-base": "^7.1.0"
+    "eslint-config-airbnb-base": "^9.0.0"
   },
   "peerDependencies": {
-    "eslint": "^3.5.0",
-    "eslint-plugin-import": "^1.15.0",
-    "eslint-plugin-node": "^2.0.0"
+    "eslint": "^3.8.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-node": "^2.1.3"
   }
 }
