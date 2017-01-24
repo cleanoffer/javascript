@@ -9,6 +9,7 @@ module.exports = {
     'comma-dangle': 0,
     semi: [2, 'never'],
     "jsx-quotes": [1, "prefer-single"],
+    "react/forbid-prop-types": 0,
   }
 }
 
