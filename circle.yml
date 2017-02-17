@@ -9,5 +9,5 @@ deployment:
   release:
     tag: /v[0-9]+(\.[0-9]+)*/
     commands:
-      - for d in linters/*; do ( cd $d cp ../../npmrc.circleci .npmrc && npm publish --access public); done
+      - for d in linters/*; do ( cd $d && cp ../../npmrc.circleci .npmrc && npm publish --access public); done
 
