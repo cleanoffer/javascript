@@ -1,21 +1,38 @@
 module.exports = {
   extends: [
-    'eslint-config-airbnb-base',
-  ].map(require.resolve),
+    "eslint:recommended",
+    "plugin:node/recommended"
+  ],
 
   plugins: [
+    'import',
     'node',
   ],
 
+  env: {
+    es6: true,
+    node: true
+  },
+
   parserOptions: {
-    sourceType: 'script',
-    ecmaFeatures: {
-      generators: true,
-    },
+    "ecmaVersion": 2017,
   },
 
   rules: {
-    'comma-dangle': 0,
+    "arrow-parens": [
+      "error",
+      "as-needed",
+      { "requireForBlockBody": false }
+    ],
+
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "functions": "never"
+      }
+    ],
 
     'import/no-extraneous-dependencies': [2, {
       devDependencies: ["**/test/**/*.js"],
@@ -37,7 +54,7 @@ module.exports = {
 
     'no-param-reassign': 0,
 
-    'node/no-unsupported-features': [2, { version: 4 }],
+    'node/no-unsupported-features': [2],
 
     semi: [2, 'never'],
 

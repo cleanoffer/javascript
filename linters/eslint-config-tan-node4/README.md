@@ -4,12 +4,19 @@ ESLint config for TAN node 4 based projects.
 
 ## Installation
 
+### NPM
 ```sh
-npm i --save-dev @topagentnetwork/eslint-config-tan-node4
-
 (
   export PKG=@topagentnetwork/eslint-config-tan-node4;
   npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG"
+)
+```
+
+### YARN
+```
+(
+  export PKG=@topagentnetwork/eslint-config-tan-node4
+  yarn info "$PKG" peerDependencies --json| command jq '.data | to_entries | .[] | "\(.key)@\(.value)"' | xargs yarn add --dev "$PKG"
 )
 ```
 
