@@ -26,7 +26,7 @@ module.exports = {
     ],
 
     "comma-dangle": [
-      "error",
+      "warn",
       {
         "arrays": "always-multiline",
         "objects": "always-multiline",
@@ -44,6 +44,8 @@ module.exports = {
       after: true
     }],
 
+    'max-len': ['warn', 120],
+
     'no-confusing-arrow': 0,
 
     'no-multi-spaces': [2, {
@@ -55,6 +57,8 @@ module.exports = {
     'no-param-reassign': 0,
 
     'node/no-unsupported-features': [2],
+
+    'object-curly-spacing': ['warn', 'always'],
 
     semi: [2, 'never'],
 
