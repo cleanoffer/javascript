@@ -5,7 +5,7 @@ var test = require('ava')
 var ROOT_PKG = require('../package.json')
 
 var LINT_PKGS = [
-  'tan-node6',
+  'tan-node',
   'tan-react'
 ].map(function(linter) {
   return require('../linters/eslint-config-' + linter + '/package.json')

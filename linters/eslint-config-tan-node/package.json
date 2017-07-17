@@ -1,5 +1,5 @@
 {
-  "name": "@topagentnetwork/eslint-config-tan-node4",
+  "name": "@topagentnetwork/eslint-config-tan-node",
   "version": "0.4.1",
   "description": "eslint configuration for TAN projects",
   "main": "index.js",
@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/cleanoffer/javascript#readme",
   "peerDependencies": {
-    "eslint": "^3.18.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-node": "^4.2.1"
+    "eslint": "^4.2.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.0"
   }
 }

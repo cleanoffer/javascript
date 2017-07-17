@@ -22,7 +22,9 @@ module.exports = {
     "arrow-parens": [
       "error",
       "as-needed",
-      { "requireForBlockBody": false }
+      {
+        "requireForBlockBody": false
+      }
     ],
 
     "comma-dangle": [

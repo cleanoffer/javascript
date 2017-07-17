@@ -18,14 +18,13 @@
   },
   "homepage": "https://github.com/cleanoffer/javascript#readme",
   "dependencies": {
-    "@topagentnetwork/eslint-config-tan-node4": "file:linters/eslint-config-tan-node4",
-    "@topagentnetwork/eslint-config-tan-node6": "file:linters/eslint-config-tan-node6",
+    "@topagentnetwork/eslint-config-tan-node": "file:linters/eslint-config-tan-node",
     "@topagentnetwork/eslint-config-tan-react": "file:linters/eslint-config-tan-react",
-    "eslint": "^3.8.0",
-    "eslint-plugin-import": "^2.0.1",
-    "eslint-plugin-jsx-a11y": "^2.2.2",
-    "eslint-plugin-node": "^2.1.3",
-    "eslint-plugin-react": "^6.3.0"
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-react": "^7.1.0"
   },
   "devDependencies": {
     "ava": "^0.16.0"
